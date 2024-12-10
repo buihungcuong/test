@@ -1,0 +1,96 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    color: red; 
+    text-transform: uppercase; 
+    text-shadow: 5px 5px 5px #eb4e06;
+}
+h1:hover {
+    color: blueviolet;
+    text-shadow: 5px 5px 5px #d2b0f1;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color:#c0a81e;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: violet;
+}
+a:focus {
+    color: blue;
+}
+
+a:visited {
+    color: black;
+}
+ul {
+    list-style-image: url(Picture/Gun_pointer.svg);
+}
+div.gioithieu {
+    background-image: url(Picture/hinhnen.jpg);
+    background-size: cover;
+    padding: 30px 30px 30px 0px;
+    color: #03fd39;
+    text-shadow: 1px 1px black;
+}
+div.gioithieu p {
+    text-align: right;
+    background-color: #f0f0f08c;
+    margin: 0px;
+    padding: 10px;
+}
+table#tkb {
+    border-collapse: collapse;
+    width: 100%;
+}
+table#tkb td {
+    border: 1px solid black;
+    padding-left: 5px;
+}
+table#tkb tr:nth-child(1) td {
+    text-align: center;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+table#tkb tr:nth-child(3) td, table#tkb tr:nth-child(6) td {
+    background-color: lightgrey;
+    text-align: center;
+}
+table#tkb td:hover {
+    background-color: beige !important;
+}
+iframe[name="trangweb"] {
+    float: right;
+    width: 70%;
+    height: 350px;
+}
+.nowrap {
+    clear: both;
+}
+table.hinhanh img {
+    width: 320px;
+    height: 240px;
+    margin: 0px 50px 30px 0px;
+    border-radius: 50px 50px;
+    box-shadow: 4px 4px 10px grey;
+    object-fit: cover;
+}
+table.hinhanh img:active {
+    box-shadow: 4px 4px 10px red;
+}
+body {
+    background-image: url(Picture/hinhnen.jpg);
+    background-size: cover;
+}
+main {
+    max-width: 1180px;
+    margin: 50px auto;
+    border: 3px outset grey;
+    background-color: white;
+    padding: 10px 20px 50px 20px;
+}
